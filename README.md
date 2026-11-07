@@ -27,7 +27,7 @@ Il file `SHA256SUMS.txt` permette di controllare che il download sia integro.
 
 Dalla scheda **Video** si può mandare ai telefoni l'anteprima del programma in onda e permettere di **salvare il fotogramma in Full HD**. Sorgenti: scheda di acquisizione o OBS Virtual Camera, flusso di rete (SRT, RTMP, RTSP, UDP) e **NDI®**.
 
-Per NDI serve la libreria `Processing.NDI.Lib.x64.dll` nella stessa cartella di `amplievent.exe` (informazioni: https://ndi.video/).
+Per NDI la libreria `Processing.NDI.Lib.x64.dll` è inclusa nel pacchetto, accanto a `amplievent.exe`: non spostarla (informazioni: https://ndi.video/).
 
 ## Requisiti
 
