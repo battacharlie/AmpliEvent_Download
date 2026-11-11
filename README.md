@@ -5,8 +5,11 @@ Programma per Windows che distribuisce la **traduzione simultanea** agli smartph
 ## Scarica
 
 1. Apri la pagina [**Releases**](../../releases/latest).
-2. Scarica `AmpliEvent-…-windows.zip` (Windows 10/11, 64 bit).
-3. Estrai la cartella e fai doppio clic su `amplievent.exe`.
+2. Scarica l'installatore (Windows 10/11, 64 bit):
+   - `AmpliEvent-Admin-…-Setup.exe`: modalità **Admin**, scegli da un menu quali moduli installare;
+   - oppure un installatore per ogni modulo: `AmpliEvent-Traduzione-…`, `AmpliEvent-Domande-…`, `AmpliEvent-Video-…`. Se più tardi ne installi un altro, si aggiunge a quello già presente.
+   (In alternativa lo zip `AmpliEvent-…-windows.zip`: estrai la cartella e fai doppio clic su `amplievent.exe`.)
+3. Durante l'installazione incolla il testo della **licenza** ricevuta (si può anche fare dopo, dalla scheda **Licenza** della regia). Ogni modulo funziona solo con la sua licenza; una prova di 24 ore si richiede dal sito www.amplievent.com.
 
 Se compare "Windows ha protetto il PC": *Ulteriori informazioni → Esegui comunque*. Al primo avvio consenti l'accesso alle **Reti private** (serve al pubblico per collegarsi).
 
