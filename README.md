@@ -7,7 +7,7 @@ Programma per Windows che distribuisce la **traduzione simultanea** agli smartph
 1. Apri la pagina [**Releases**](../../releases/latest).
 2. Scarica l'installatore (Windows 10/11, 64 bit):
    - `AmpliEvent-Admin-…-Setup.exe`: modalità **Admin**, scegli da un menu quali moduli installare;
-   - oppure un installatore per ogni modulo: `AmpliEvent-Traduzione-…`, `AmpliEvent-Domande-…`, `AmpliEvent-Video-…`. Se più tardi ne installi un altro, si aggiunge a quello già presente.
+   - oppure un installatore per ogni modulo: `AmpliEvent-Traduzione-…`, `AmpliEvent-Trascrizione-…`, `AmpliEvent-Video-…`, `AmpliEvent-Domande-…`, `AmpliEvent-Sondaggio-…`, `AmpliEvent-Flussi-…`. Se più tardi ne installi un altro, si aggiunge a quello già presente.
    (In alternativa lo zip `AmpliEvent-…-windows.zip`: estrai la cartella e fai doppio clic su `amplievent.exe`.)
 3. Durante l'installazione incolla il testo della **licenza** ricevuta (si può anche fare dopo, dalla scheda **Licenza** della regia). Ogni modulo funziona solo con la sua licenza; una prova di 24 ore si richiede dal sito www.amplievent.com.
 
@@ -31,6 +31,14 @@ Il file `SHA256SUMS.txt` permette di controllare che il download sia integro.
 Dalla scheda **Video** si può mandare ai telefoni l'anteprima del programma in onda e permettere di **salvare il fotogramma in Full HD**. Sorgenti: scheda di acquisizione o OBS Virtual Camera, flusso di rete (SRT, RTMP, RTSP, UDP) e **NDI®**.
 
 Per NDI la libreria `Processing.NDI.Lib.x64.dll` è inclusa nel pacchetto, accanto a `amplievent.exe`: non spostarla (informazioni: https://ndi.video/).
+
+## Altri moduli (facoltativi, con licenza propria)
+
+- **Trascrizione**: il testo di ciò che si dice in sala compare sul telefono in un riquadro 16:9, ingrandibile a tutto schermo.
+- **Sondaggi e quiz**: il pubblico vota dal telefono e i risultati compaiono in tempo reale sullo schermo di sala (anche su un secondo monitor); li conduce la regia o il moderatore.
+- **Flussi**: server di redistribuzione e di backup, per più ascoltatori e continuità del servizio.
+
+L'interfaccia del telefono è in **italiano, inglese, francese, spagnolo, arabo e cinese**.
 
 ## Requisiti
 
