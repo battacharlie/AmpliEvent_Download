@@ -6,7 +6,12 @@ Programma per Windows che distribuisce la **traduzione simultanea** agli smartph
 
 1. Apri la pagina [**Releases**](../../releases/latest).
 2. Scarica l'installatore (Windows 10/11, 64 bit):
-   - `AmpliEvent-Admin-…-Setup.exe`: modalità **Admin**, scegli da un menu quali moduli installare;
+   - `AmpliEvent-Admin-…-Setup.exe`: **AmpliEvent 4**. Scegli il **ruolo** di questo PC:
+     - **Admin**: tutto su un PC;
+     - **Server**: leggero, sull'IP dei telefoni;
+     - **Postazione**: cattura le sorgenti e serve i telefoni per il Server.
+
+     Poi scegli i moduli;
    - oppure un installatore per ogni modulo: `AmpliEvent-Traduzione-…`, `AmpliEvent-Trascrizione-…`, `AmpliEvent-TraduzioneAI-…`, `AmpliEvent-Video-…`, `AmpliEvent-Domande-…`, `AmpliEvent-Sondaggio-…`, `AmpliEvent-Flussi-…`. Se più tardi ne installi un altro, si aggiunge a quello già presente.
    (In alternativa lo zip `AmpliEvent-…-windows.zip`: estrai la cartella e fai doppio clic su `amplievent.exe`.)
 3. Durante l'installazione incolla il testo della **licenza** ricevuta (si può anche fare dopo, dalla scheda **Licenza** della regia). Ogni modulo funziona solo con la sua licenza; una prova di 24 ore si richiede dal sito www.amplievent.com.
@@ -25,6 +30,17 @@ Il file `SHA256SUMS.txt` permette di controllare che il download sia integro.
 4. Il pubblico inquadra, sceglie la lingua e ascolta. Chi vuole può anche scrivere una **domanda ai relatori**; il moderatore la vede dal telefono con un QR riservato.
 
 **Esporta / Importa** (scheda Evento) salva e ricarica schede audio, lingue, pagina del pubblico, WiFi e video: comodo per riusare un evento.
+
+## Più PC: Server e Postazioni (AmpliEvent 4)
+
+Per eventi grandi si usa un **Server** leggero sull'IP dei telefoni, che non tocca audio e video, e più **Postazioni**, che catturano le sorgenti e servono i telefoni.
+
+1. Nella regia del Server, scheda **Flussi**, premi **Accetta** su ogni Postazione e assegna i servizi:
+   - Audio, Video, Sottotitoli, Traduzione AI, Domande, Sondaggio;
+   - la priorità;
+   - il modo: *in carico* oppure *di riserva*.
+2. Se una Postazione cade o non riceve una lingua, i telefoni passano da soli a un'altra in pochi secondi.
+3. Il pulsante **📱 Telefoni** mostra ogni telefono collegato con le statistiche di ricezione e permette di aggiornargli la pagina.
 
 ## Video (facoltativo)
 
